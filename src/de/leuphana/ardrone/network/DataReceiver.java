@@ -1,4 +1,4 @@
-package de.leuphana.quadt.drone.network;
+package de.leuphana.ardrone.network;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

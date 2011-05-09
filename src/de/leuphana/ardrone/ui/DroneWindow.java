@@ -1,4 +1,4 @@
-package de.leuphana.quadt.drone.ui;
+package de.leuphana.ardrone.ui;
 
 import java.awt.EventQueue;
 
@@ -34,11 +34,11 @@ import javax.swing.text.Style;
 import javax.swing.text.StyleConstants;
 import javax.swing.text.StyledDocument;
 
-import de.leuphana.quadt.drone.CommandDispatcher;
-import de.leuphana.quadt.drone.Controller;
-import de.leuphana.quadt.drone.KeyDispatcher;
-import de.leuphana.quadt.drone.Util;
-import de.leuphana.quadt.drone.listener.MessageListener;
+import de.leuphana.ardrone.CommandDispatcher;
+import de.leuphana.ardrone.Controller;
+import de.leuphana.ardrone.KeyDispatcher;
+import de.leuphana.ardrone.Util;
+import de.leuphana.ardrone.listener.MessageListener;
 
 import java.awt.Color;
 import java.awt.event.KeyAdapter;

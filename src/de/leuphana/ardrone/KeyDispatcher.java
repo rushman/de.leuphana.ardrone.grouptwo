@@ -1,4 +1,4 @@
-package de.leuphana.quadt.drone;
+package de.leuphana.ardrone;
 
 import java.awt.KeyEventDispatcher;
 import java.awt.event.KeyEvent;

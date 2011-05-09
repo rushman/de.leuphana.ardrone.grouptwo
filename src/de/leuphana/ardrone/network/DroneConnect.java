@@ -1,4 +1,4 @@
-package de.leuphana.quadt.drone.network;
+package de.leuphana.ardrone.network;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
@@ -12,8 +12,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import de.leuphana.quadt.drone.CommandCounter;
-import de.leuphana.quadt.drone.Util;
+import de.leuphana.ardrone.CommandCounter;
+import de.leuphana.ardrone.Util;
 
 /**
  * Klasse zum Aufbauen einer UDP-Verbindung mit einem Rechner/Drone im Netzwerk

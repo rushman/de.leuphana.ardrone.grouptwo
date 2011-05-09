@@ -1,4 +1,4 @@
-package de.leuphana.quadt.drone.ui;
+package de.leuphana.ardrone.ui;
 
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -14,11 +14,11 @@ import javax.swing.JSlider;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import de.leuphana.quadt.drone.DroneControl;
+import de.leuphana.ardrone.DroneControl;
 
 public class DroneControlPanel extends JPanel {
 
-	private de.leuphana.quadt.drone.DroneControl droneControl;
+	private de.leuphana.ardrone.DroneControl droneControl;
 	private JSlider baseSpeedJSlider;
 	private JSlider horzSpeedJSlider;
 	private JSlider rotationSpeedJSlider;

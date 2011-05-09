@@ -1,4 +1,4 @@
-package de.leuphana.quadt.drone;
+package de.leuphana.ardrone;
 
 import java.awt.KeyEventDispatcher;
 import java.awt.event.ActionEvent;
@@ -9,8 +9,8 @@ import java.beans.PropertyChangeSupport;
 
 import javax.swing.JFrame;
 
-import de.leuphana.quadt.drone.listener.MessageListener;
-import de.leuphana.quadt.drone.network.DroneConnect;
+import de.leuphana.ardrone.listener.MessageListener;
+import de.leuphana.ardrone.network.DroneConnect;
 
 public class Controller implements KeyEventDispatcher, MessageListener {
 	/**

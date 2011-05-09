@@ -1,9 +1,9 @@
-package de.leuphana.quadt.drone.navdata;
+package de.leuphana.ardrone.navdata;
 
 import java.net.InetAddress;
 import java.nio.ByteBuffer;
 
-import de.leuphana.quadt.drone.network.DataReceiver;
+import de.leuphana.ardrone.network.DataReceiver;
 
 public class NavData extends Thread{
 

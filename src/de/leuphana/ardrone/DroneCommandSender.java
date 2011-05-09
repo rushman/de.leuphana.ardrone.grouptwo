@@ -1,4 +1,4 @@
-package de.leuphana.quadt.drone;
+package de.leuphana.ardrone;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
@@ -8,11 +8,11 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-import de.leuphana.quadt.drone.domain.Command;
-import de.leuphana.quadt.drone.domain.Commands;
-import de.leuphana.quadt.drone.domain.DroneState;
-import de.leuphana.quadt.drone.listener.MessageListener;
-import de.leuphana.quadt.drone.network.DroneConnect;
+import de.leuphana.ardrone.domain.Command;
+import de.leuphana.ardrone.domain.Commands;
+import de.leuphana.ardrone.domain.DroneState;
+import de.leuphana.ardrone.listener.MessageListener;
+import de.leuphana.ardrone.network.DroneConnect;
 
 public class DroneCommandSender {
 
@@ -356,7 +356,7 @@ public class DroneCommandSender {
 	 * Parameter ersetzt werden ist die getCounter() Methode in Kombination mit
 	 * FormatStrings zu nutzen
 	 * 
-	 * @see de.leuphana.quadt.drone.DroneCommandSender#turnHorz(float f)
+	 * @see de.leuphana.ardrone.DroneCommandSender#turnHorz(float f)
 	 * @param command
 	 * @return
 	 */

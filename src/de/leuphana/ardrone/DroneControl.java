@@ -1,12 +1,12 @@
-package de.leuphana.quadt.drone;
+package de.leuphana.ardrone;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import de.leuphana.quadt.drone.domain.Direction;
-import de.leuphana.quadt.drone.listener.MessageListener;
-import de.leuphana.quadt.drone.network.DroneConnect;
+import de.leuphana.ardrone.domain.Direction;
+import de.leuphana.ardrone.listener.MessageListener;
+import de.leuphana.ardrone.network.DroneConnect;
 
 public class DroneControl {
 	private DroneCommandSender commands;

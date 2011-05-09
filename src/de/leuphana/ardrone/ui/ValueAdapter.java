@@ -1,4 +1,4 @@
-package de.leuphana.quadt.drone.ui;
+package de.leuphana.ardrone.ui;
 
 public class ValueAdapter {
 //	spinnerNumberModel2.setValue(controller.getHorzSpeed());

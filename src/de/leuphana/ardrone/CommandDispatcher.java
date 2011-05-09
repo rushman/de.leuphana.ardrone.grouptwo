@@ -1,4 +1,4 @@
-package de.leuphana.quadt.drone;
+package de.leuphana.ardrone;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

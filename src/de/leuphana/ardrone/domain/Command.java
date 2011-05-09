@@ -1,4 +1,4 @@
-package de.leuphana.quadt.drone.domain;
+package de.leuphana.ardrone.domain;
 
 import java.text.MessageFormat;
 

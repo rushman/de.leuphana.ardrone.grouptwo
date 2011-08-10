@@ -11,7 +11,7 @@ import de.leuphana.ardrone.dronesystem.communication.navdata.ICoordinateData;
  * 
  */
 
-public class NavdataRadarConversion extends TimerTask {
+public class NavDataRadarConversion extends TimerTask implements NavDataRadarConversionController{
 
 	private float xRadarDistance;
 	private float yRadarDistance;
@@ -32,7 +32,7 @@ public class NavdataRadarConversion extends TimerTask {
 		return radarFacing;
 	}
 
-	TimerTask timer = new NavdataRadarConversion();
+	TimerTask timer = new NavDataRadarConversion();
 
 	/**
 	 * Aufruf des TimerTasks NavdataRadarConversion
@@ -52,12 +52,31 @@ public class NavdataRadarConversion extends TimerTask {
 
 	@Override
 	public void run() {
-		// TODO Datenabfrage, klappt noch nicht weil Interface noch nirgends
-		// ausprogrammiert
-		// xRadarDistance = ICoordinateData.getVx() * conversionFactor;
-		// yRadarDistance = ICoordinateData.getVy() * conversionFactor;
-		// radarFacing = Math.round(ICoordinateData.getRotate());
+		NavDataRadarConversion navDataRadarConversion = new NavDataRadarConversion();
+		// TODO Datenabfrage testen
+		xRadarDistance = ((ICoordinateData) navDataRadarConversion).getVx() * conversionFactor;
+		yRadarDistance = ((ICoordinateData) navDataRadarConversion).getVy() * conversionFactor;
+		// TODO Rundungsfkt. mit negativwerten beachten
+		radarFacing = Math.round(((ICoordinateData) navDataRadarConversion).getRotate());
+		System.out.println("RadarData : xRadarDistance: " + xRadarDistance + " yRadarDistance : " + yRadarDistance + " radarFacing : " + radarFacing);
+	}
 
+	@Override
+	public void init() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void start() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
